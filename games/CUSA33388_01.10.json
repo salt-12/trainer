@@ -1,0 +1,1261 @@
+{
+    "name": "Resident Evil 4",
+    "id": "CUSA33388",
+    "version": "01.10",
+    "process": "eboot.bin",
+    "mods": [
+        {
+            "name": "[00] MASTER CODE (ALWAYS ON!!!)",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA000",
+                    "on": "4C89F848A300BF2B8000000000833DF01E0E7402750C8B4038A318BF2B8000000000498B875002000048A308BF2B8000000000498B874801000048A310BF2B8000000000E9977A90F7",
+                    "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "36E1AD9",
+                    "on": "E922856F089090",
+                    "off": "498B8748010000"
+                }
+            ]
+        },
+        {
+            "name": "[01a][Special] LEON: Start New Game Carrying Killer",
+            "description": "Leon will carry the Killer instead of the SG-09 R. If this cheat is on anytime before loading a save/stage, the weapons will be exchanged anyway",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAE30",
+                    "on": "817B6800A861107507C7436840E36D10E83BFD5CF8E9366927F8",
+                    "off": "0000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "405177B",
+                    "on": "E9B096D807",
+                    "off": "E800943500"
+                }
+            ]
+        },
+        {
+            "name": "[01b][Special] LEON: Start New Game Carrying Rocket Launcher Infinite",
+            "description": "Leon will carry the Rocket Launcher Infinite instead of the SG-09 R. If this cheat is on anytime before loading a save/stage, the weapons will be exchanged anyway",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAE30",
+                    "on": "817B6800A861107507C7436880AD7710E83BFD5CF8E9366927F8",
+                    "off": "0000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "405177B",
+                    "on": "E9B096D807",
+                    "off": "E800943500"
+                }
+            ]
+        },
+        {
+            "name": "[01c][Special] ADA: Start New Game With Blast Crossbow",
+            "description": "Ada will carry the Blast Crossbow instead of the TMP. If this cheat is on before loading, the TMP will be exchanged for the Blast Crossbow anyway",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAE30",
+                    "on": "817B68000695107507C7436880F99410E83BFD5CF8E9366927F8",
+                    "off": "0000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "405177B",
+                    "on": "E9B096D807",
+                    "off": "E800943500"
+                }
+            ]
+        },
+        {
+            "name": "[02][Special] LEON: 3 Stored Weapons Exchanged",
+            "description": "Three stored weapons will be exchanged, when you first open the storage case: Handcannon for Killer 7; Skull Shaker for Stingray; Chicago Sweeper for Rocket Launcher Infinite. In case you just wanted to exchange one or two of them, turn the cheat off, take the weapons you don't want to change, leave the storage/case, turn the cheat on and open the case again",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAEE0",
+                    "on": "81782880E96D10741F81782840829210741F81782840906610741F448B68284D8B7E20E9626747F5C7402840E36D10EBEAC7402840726B10EBE1C7402880AD7710EBD8",
+                    "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "1251662",
+                    "on": "E97998B80A909090",
+                    "off": "448B68284D8B7E20"
+                }
+            ]
+        },
+        {
+            "name": "[03a][Special] LEON: Store First Aid Spray And Get High-power Scope",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAF60",
+                    "on": "4889F38B722881FE80d9D1060F85BC20DFF7BE8011EA06897228E9AF20DFF7",
+                    "off": "00000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3BCD028",
+                    "on": "E933DF200890",
+                    "off": "4889F38B7228"
+                }
+            ]
+        },
+        {
+            "name": "[03b][Special] LEON: Store First Aid Spray And Get Biosensor Scope",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAF60",
+                    "on": "4889F38B722881FE80D9D1060F85BC20DFF7BEC017EA06897228E9AF20DFF7",
+                    "off": "00000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3BCD028",
+                    "on": "E933DF200890",
+                    "off": "4889F38B7228"
+                }
+            ]
+        },
+        {
+            "name": "[04a][Special] LEON: Get Any Weapon [Storing]",
+            "description": "Every time Leon stores a weapon, a new one will be there. It will loop through all the possible weapons Leon can use",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDB180",
+                    "on": "488955B048897DB848B8D0B01D0C000000003B3074188338FF74064883C004EBF1BE00127A10897228E9941EDFF78B7004EBF3",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3BCD03A",
+                    "on": "E941E12008909090",
+                    "off": "488955B048897DB8"
+                },
+                {
+                    "offset": "BDDB0D0",
+                    "on": "00127a1040187a1080377a1000a8611080b46110007c921040ae61100038951000c16110c0ba61100019641040829210401f641080256410006c6b1080786b1040726b1040e36d1000dd6d1080e96d10008a6610809666104090661000a17710004e701080ad771040a7771000127a10ffffffff",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ]
+        },
+        {
+            "name": "[04b][Special] ADA: Get Any Weapon [Storing]",
+            "description": "The same as above but for Ada. Ada can get all of the Leon`s weapons plus 5 new ones: Tactical Knife, Blacktail AC, Punisher MC, Sawed-off W-870 and Blast Crossbow. Some same weapons from Leon have another ID. They were updated for Ada",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDB080",
+                    "on": "488955B048897DB848B8D0B01D0C000000003B3074188338FF74064883C004EBF1BE00127A10897228E9941FDFF78B7004EBF3",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3BCD03A",
+                    "on": "E941E02008909090",
+                    "off": "488955B048897DB8"
+                },
+                {
+                    "offset": "BDDB0D0",
+                    "on": "00127a1040187a1080377a10c018951000a86110403e9510007c921040ae611000c16110c0ba6110c0ff94100019641040829210401f64108025641000ed94108044951080786b10400c951040e36d1000dd6d1080e96d1000069510809666104090661080129510004e701080ad771040a7771080f9941000127a10ffffffff",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ]
+        },
+        {
+            "name": "[05a][Special] LEON: Change Item In Slot 1",
+            "description": "When Leon selects a key item in slot 1 (first one on the left), this one will be changed to a new one. All the possible key items will be looped",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA700",
+                    "on": "80e51a07c0eb1a0700f21a0780fe1a07c0041b07000b1b0740111b07c01d1b0700241b07402a1b0780301b07c0361b07003d1b07c04f1b0700561b0780621b07c0681b07006f1b0700881b0780941b07c09a1b0700a11b0780ad1b07c0b31b0700ba1b0740c01b0780c61b07c0cc1b0740d91b0780df1b07c0e51b0700ec1b0780f81b07c0fe1b0700051c07400b1c0780111c07c0171c07001e1c0740241c07802a1c07c0301c0700371c07408e1b0780e51a07ffffffff",
+                    "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "BDDA800",
+                    "on": "4183FB5375064183FA04742F488B064889DFE92BEF0AFA8B462848BF00A71D0C000000003B07740B833FFF74DF4883C704EBF18B4704894628EBD141837E1C0074D5EBC8",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "5E8973C",
+                    "on": "E9BF10F50590",
+                    "off": "488B064889DF"
+                }
+            ]
+        },
+        {
+            "name": "[05b][Special] ADA: Change Item In Slot 1",
+            "description": "The same as above goes for Ada. I have just included the key items she can get, even the ones than can`t actually be examined: Blue Butterfly, etc",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA800",
+                    "on": "4183FB5375064183FA04742F488B064889DFE92BEF0AFA8B462848BF60B11D0C000000003B07740B833FFF74174883C704EBF18B4704894628EBD141837E1C0074D5EBC8B800881B07894628EBBE",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "5E8973C",
+                    "on": "E9BF10F50590",
+                    "off": "488B064889DF"
+                },
+                {
+                    "offset": "BDDB160",
+                    "on": "00881b074093160700741607407a160780801607c08616074016160780fe1a0740611607801c160780991607c0221607005b1607c09f160700881b07ffffffff",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ]
+        },
+        {
+            "name": "[06][Health] Immunity: Player + AI",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA300",
+                    "on": "488B8A48010000EB07B001E96C4A52FA817A38B0AD010074F0508B42383B05F51B0E745874E3EBE3",
+                    "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "62FED75",
+                    "on": "E986B5AD059090",
+                    "off": "488B8A48010000"
+                },
+                {
+                    "offset": "1C9913E",
+                    "on": "EB5A",
+                    "off": "745A"
+                },
+                {
+                    "offset": "BDDABF0",
+                    "on": "8B4E203B0D1F130E74740A4889E54157E91170F4F95DC3",
+                    "off": "0000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "5D21C11",
+                    "on": "E9DA8F0B06",
+                    "off": "4889E54157"
+                },
+                {
+                    "offset": "BDDAE00",
+                    "on": "C5F22A4814C6401801E9E66C90F7",
+                    "off": "0000000000000000000000000000"
+                },
+                {
+                    "offset": "36E1AEF",
+                    "on": "E90C936F08",
+                    "off": "C5F22A4814"
+                }
+            ]
+        },
+        {
+            "name": "[07][Health] Infinite Health [10k]",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA200",
+                    "on": "C7401010270000C7401410270000C5F857C08B4810E9CD7890F7",
+                    "off": "0000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "36E1AE0",
+                    "on": "E91B876F089090",
+                    "off": "C5F857C08B4810"
+                }
+            ]
+        },
+        {
+            "name": "[08a][Speed] Player + AI x2",
+            "description": "Unselect to have normal speed again x1",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA2B0",
+                    "on": "4D85ED741E4831C0B00441837C050002751104103C7475F290909090C7432000000040C5FA594320E9947B5EFB",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "73C1E6C",
+                    "on": "E93F84A104",
+                    "off": "C5FA594320"
+                }
+            ]
+        },
+        {
+            "name": "[08b][Speed] Player + AI x3",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA2B0",
+                    "on": "4D85ED741E4831C0B00441837C050002751104103C7475F290909090C7432000004040C5FA594320E9947B5EFB",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "73C1E6C",
+                    "on": "E93F84A104",
+                    "off": "C5FA594320"
+                }
+            ]
+        },
+        {
+            "name": "[09][Weapon] 1 Hit Kill",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA100",
+                    "on": "41837C245402741541C686CD000000014180BECD00000000E9DA82D9F5498B7C2450817F384B0D030074E5817F38560D030074DC817F38B0AD010074D38B7F383B3DD21D0E7474C8EBBE",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "1B723EF",
+                    "on": "E90C7D260A909090",
+                    "off": "4180BECD00000000"
+                }
+            ]
+        },
+        {
+            "name": "[10][Weapon] Rapidfire",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA400",
+                    "on": "837B38057507C7432000000041C5FA594320E99A7C5EFB",
+                    "off": "0000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "73C20AC",
+                    "on": "E94F83A104",
+                    "off": "C5FA594320"
+                }
+            ]
+        },
+        {
+            "name": "[11][Weapon] Infinite Ammo",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA240",
+                    "on": "817C24C8FF00000077048B4424C84189442444E9519BEFF8",
+                    "off": "000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "4CD3DA4",
+                    "on": "E997641007",
+                    "off": "4189442444"
+                }
+            ]
+        },
+        {
+            "name": "[12][Weapon] Infinite Knife/Armour Durability",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "4347CCB",
+                    "on": "6F",
+                    "off": "67"
+                }
+            ]
+        },
+        {
+            "name": "[13][Weapon] Infinite Grenades",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA670",
+                    "on": "81FE80E28310741A81FE00D68310741281FE40DC8310740A8B521439C2E958C526F8B89A020000894214EBEC",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "4046BE5",
+                    "on": "E9863AD907",
+                    "off": "8B521439C2"
+                }
+            ]
+        },
+        {
+            "name": "[14][Weapon] Luis Has A Rocket Launcher",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA870",
+                    "on": "C5FB59C1C57B2CE041817F2880B461100F8543D456F841C7472880AD7710E936D456F8",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "4347CC1",
+                    "on": "E9AA2BA907909090",
+                    "off": "C5FB59C1C57B2CE0"
+                }
+            ]
+        },
+        {
+            "name": "[15][Weapon] Cannon: No Reload",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA930",
+                    "on": "0F57C0C5FA11800C010000E9FAE891F6",
+                    "off": "00000000000000000000000000000000"
+                },
+                {
+                    "offset": "26F9232",
+                    "on": "E9F9166E09909090",
+                    "off": "C5FA11800C010000"
+                }
+            ]
+        },
+        {
+            "name": "[16][Weapon] Anti-Aircraft Gun: Infinite Ammo",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAC30",
+                    "on": "B99A020000898B80030000E96304C0F8",
+                    "off": "00000000000000000000000000000000"
+                },
+                {
+                    "offset": "49DB09D",
+                    "on": "E98EFB3F0790",
+                    "off": "898B80030000"
+                }
+            ]
+        },
+        {
+            "name": "[17][Weapon] Ashley: Eternal Frozen Knights",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "5CC20BB",
+                    "on": "90909090",
+                    "off": "C5F35CC0"
+                }
+            ]
+        },
+        {
+            "name": "[18][Weapon] Able To Store Rocket Launcher (Special)",
+            "description":"If this cheat is not on, the weapon will dissappear every time it is stored",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "3BCD02E",
+                    "on": "909090909090",
+                    "off": "81FE40A77710"
+                }
+            ]
+        },
+        {
+            "name": "[19a][Weapon] Scope: Extra Zoom 2",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAAF0",
+                    "on": "C5FA114038817838000080410F852AFA97F6C7403801000041C5FA104038E919FA97F6",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "275A527",
+                    "on": "E9C4056809",
+                    "off": "C5FA114038"
+                }
+            ]
+        },
+        {
+            "name": "[19b][Weapon] Scope: More Extra Zoom 2",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAAF0",
+                    "on": "C5FA114038817838000080410F852AFA97F6C7403800008040C5FA104038E919FA97F6",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "275A527",
+                    "on": "E9C4056809",
+                    "off": "C5FA114038"
+                }
+            ]
+        },
+        {
+            "name": "[20][Weapon] High-power Scope: Extra Zoom 3",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAB20",
+                    "on": "81783800000041740C488B8688010000E9FEF997F6C7403800008040C5FA104038EBE6",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "275A52C",
+                    "on": "E9EF0568099090",
+                    "off": "488B8688010000"
+                }
+            ]
+        },
+        {
+            "name": "[21][Weapon] Biosensor Scope: Extra Zoom 2",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAB60",
+                    "on": "50488B86100100008178380000C841740F584885C00F84D3F997F6E9B8F997F6C7403801000041C5FA10403858EBE3",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "275A533",
+                    "on": "E928066809",
+                    "off": "4885C07416"
+                }
+            ]
+        },
+        {
+            "name": "[22][Item] Infinite Pesetas",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA460",
+                    "on": "4189442410807DCF00740941C7442410AA40F903E9438EEBF7",
+                    "off": "00000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3C932B7",
+                    "on": "E9A4711408",
+                    "off": "4189442410"
+                }
+            ]
+        },
+        {
+            "name": "[23][Item] Infinite Spinels",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA630",
+                    "on": "C741209A020000488B40588B4920E98CF544F7",
+                    "off": "00000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3229BC8",
+                    "on": "E9630ABB089090",
+                    "off": "488B40588B4920"
+                }
+            ]
+        },
+        {
+            "name": "[24][Item] Infinite Keys/Tokens/Treasures",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAA40",
+                    "on": "817B2800881B07742E817B28802A1C077425817B28C0301C07741C817B2800371C07770B8B43344885C9E9A5D356F866817B2A400773EDB89A020000894334EBE6",
+                    "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "4347E0E",
+                    "on": "E92D2CA90790",
+                    "off": "8B43344885C9"
+                }
+            ]
+        },
+        {
+            "name": "[25][Item] Infinite Completion Points (CP)",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA280",
+                    "on": "41BD2A2C0A004489ABA8000000E98A0E33F6",
+                    "off": "000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "210B115",
+                    "on": "E966F1CC099090",
+                    "off": "448BABA8000000"
+                }
+            ]
+        },
+        {
+            "name": "[26][Enemy] Bear Traps Don`t Work",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA4A0",
+                    "on": "C686880000000180BE8800000000E90FA2D1F6",
+                    "off": "00000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "2AF46BB",
+                    "on": "E9E05D2E099090",
+                    "off": "80BE8800000000"
+                }
+            ]
+        },
+        {
+            "name": "[27][Total Play Time] Set To Zero",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA4D0",
+                    "on": "48C742180000000080791000E9C0A7BCF9",
+                    "off": "0000000000000000000000000000000000"
+                },
+                {
+                    "offset": "59A4C99",
+                    "on": "E932584306909090",
+                    "off": "4801421880791000"
+                }
+            ]
+        },
+        {
+            "name": "[28][In-Game] Timer Stopped",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA500",
+                    "on": "48C7C101000000E9F9A7BCF9",
+                    "off": "000000000000000000000000"
+                },
+                {
+                    "offset": "59A4D00",
+                    "on": "E9FB574306",
+                    "off": "C4E1FB2CC8"
+                }
+            ]
+        },
+        {
+            "name": "[29][EndOfChapter] Play Time = 0",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA520",
+                    "on": "4831C04889C14889421848894618C3",
+                    "off": "000000000000000000000000000000"
+                },
+                {
+                    "offset": "128E292",
+                    "on": "E989C2B40A",
+                    "off": "48894E18C3"
+                }
+            ]
+        },
+        {
+            "name": "[30][EndOfChapter] Enemies Killed = 666",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA550",
+                    "on": "B89A02000089421439C10F4FC8E95C3F4BF5",
+                    "off": "000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "128E4B9",
+                    "on": "E992C0B40A",
+                    "off": "39C10F4FC8"
+                }
+            ]
+        },
+        {
+            "name": "[31][EndOfChapter] Deaths = 0",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA580",
+                    "on": "4831C04889C14889421448894614C3",
+                    "off": "000000000000000000000000000000"
+                },
+                {
+                    "offset": "128E549",
+                    "on": "E932C0B40A",
+                    "off": "39C10F4FC8"
+                }
+            ]
+        },
+        {
+            "name": "[32][EndOfChapter] Times Damaged = 0",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA5A0",
+                    "on": "4831C04889C14889421448894614C3",
+                    "off": "000000000000000000000000000000"
+                },
+                {
+                    "offset": "128E6B9",
+                    "on": "E9E2BEB40A",
+                    "off": "39C10F4FC8"
+                }
+            ]
+        },
+        {
+            "name": "[33][EndOfChapter] Accuracy = 100/",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA5C0",
+                    "on": "31C089421439C10F4FC8E92F2EBDF8",
+                    "off": "000000000000000000000000000000"
+                },
+                {
+                    "offset": "49AD3F9",
+                    "on": "E9C2D14207",
+                    "off": "39C10F4FC8"
+                }
+            ]
+        },
+        {
+            "name": "[34][Interaction] `Hold X` Doors Open Instantly",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA5F0",
+                    "on": "4883F905750AC5FA114010E9A2C782F7C740100000803FC5FA104010EBED",
+                    "off": "000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3606D9D",
+                    "on": "E94E387D08",
+                    "off": "C5FA114010"
+                }
+            ]
+        },
+        {
+            "name": "[35][Interaction] `Hold X` Doors Stay Open",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "36070F4",
+                    "on": "EB47",
+                    "off": "7447"
+                }
+            ]
+        },
+        {
+            "name": "[36][Interaction] Power Puzzles Solved",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "5EAA555",
+                    "on": "E9D200000090",
+                    "off": "0F8481000000"
+                }
+            ]
+        },
+        {
+            "name": "[37][Vehicle] Boat: Infinite Durability",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "6095B7F",
+                    "on": "9090909090909090",
+                    "off": "41898C2488010000"
+                }
+            ]
+        },
+        {
+            "name": "[38][Vehicle] Wagon: Infinite Durability",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "204A25F",
+                    "on": "EB38",
+                    "off": "7438"
+                }
+            ]
+        },
+        {
+            "name": "[39][Vehicle] Crane: Infinite Durability",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "3C6BB92",
+                    "on": "909090909090909090",
+                    "off": "C4C17A118694000000"
+                }
+            ]
+        },
+        {
+            "name": "[40][Vehicle] Water Scooter: Infinite Durability",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "6A18020",
+                    "on": "C3",
+                    "off": "55"
+                }
+            ]
+        },
+        {
+            "name": "[41][SaveGame] Times Saved = 0",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA8C0",
+                    "on": "0F4DC131C04189454CE979BE95FA",
+                    "off": "0000000000000000000000000000"
+                },
+                {
+                    "offset": "6736740",
+                    "on": "E97B416A059090",
+                    "off": "0F4DC14189454C"
+                }
+            ]
+        },
+        {
+            "name": "[42a][SaveGame] Difficuty = Assisted",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA8F0",
+                    "on": "4189442428B80A000000894628E9C19134F9",
+                    "off": "000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "5123ABB",
+                    "on": "E9306ECB06909090",
+                    "off": "41894424288B4628"
+                }
+            ]
+        },
+        {
+            "name": "[42b][SaveGame] Difficuty = Standard",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA8F0",
+                    "on": "4189442428B814000000894628E9C19134F9",
+                    "off": "000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "5123ABB",
+                    "on": "E9306ECB06909090",
+                    "off": "41894424288B4628"
+                }
+            ]
+        },
+        {
+            "name": "[42c][SaveGame] Difficuty = Hardcore",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA8F0",
+                    "on": "4189442428B81e000000894628E9C19134F9",
+                    "off": "000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "5123ABB",
+                    "on": "E9306ECB06909090",
+                    "off": "41894424288B4628"
+                }
+            ]
+        },
+        {
+            "name": "[42d][SaveGame] Difficuty = Professional",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA8F0",
+                    "on": "4189442428B828000000894628E9C19134F9",
+                    "off": "000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "5123ABB",
+                    "on": "E9306ECB06909090",
+                    "off": "41894424288B4628"
+                }
+            ]
+        },
+        {
+            "name": "[43][TargetPractice] Timer Frozen",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA960",
+                    "on": "41C7869C0100000050D045C4C17A10869C0100000F57D2E93631F1F7",
+                    "off": "00000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3CEDAA8",
+                    "on": "E9B3CE0E089090909090",
+                    "off": "C4C17A1084249C010000"
+                }
+            ]
+        },
+        {
+            "name": "[44][TargetPractice] All Pirates Killed",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA9A0",
+                    "on": "458B98AC010000458998A8010000E9487CF1F7",
+                    "off": "00000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3CF25F4",
+                    "on": "E9A7830E089090",
+                    "off": "458B98A8010000"
+                }
+            ]
+        },
+        {
+            "name": "[45][TargetPractice] All Skulls Killed",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAA00",
+                    "on": "418BB0DC0100004189B0D8010000E99085F1F7",
+                    "off": "00000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3CF2F9C",
+                    "on": "E95F7A0E089090",
+                    "off": "418BB0D8010000"
+                }
+            ]
+        },
+        {
+            "name": "[46][TargetPractice] +Points",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDA9E0",
+                    "on": "B82A2C0A008987DC000000E9676BF1F7",
+                    "off": "00000000000000000000000000000000"
+                },
+                {
+                    "offset": "3CF1551",
+                    "on": "E98A940E0890",
+                    "off": "8B87DC000000"
+                }
+            ]
+        },
+        {
+            "name": "[47][Total Results] Rank S+ / Time = 00:00:00",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "2ABF098",
+                    "on": "EB6F90",
+                    "off": "8B4014"
+                },
+                {
+                    "offset": "BDDAC60",
+                    "on": "C74114060000008B491441894D10E9F6C09BFA",
+                    "off": "00000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "6796D62",
+                    "on": "E9F93E64059090",
+                    "off": "8B491441894D10"
+                },
+                {
+                    "offset": "BDDACA0",
+                    "on": "4831C948894A1848894E184831C0C3",
+                    "off": "000000000000000000000000000000"
+                },
+                {
+                    "offset": "128E752",
+                    "on": "E949C5B40A",
+                    "off": "48894E18C3"
+                }
+            ]
+        },
+        {
+            "name": "[48][Total Results] Saves = 0",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDACD0",
+                    "on": "31FF31C0897E14897A14C3",
+                    "off": "0000000000000000000000"
+                },
+                {
+                    "offset": "128E7E6",
+                    "on": "E9E5C4B40A90",
+                    "off": "0F4FF9897E14"
+                }
+            ]
+        },
+        {
+            "name": "[49][Mercs] Timer Frozen",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAD00",
+                    "on": "41C7471800E07745C4C17A104718E9B576F4F7",
+                    "off": "00000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "3D223C2",
+                    "on": "E939890B0890",
+                    "off": "C4C17A114718"
+                }
+            ]
+        },
+        {
+            "name": "[50][Mercs] Combo Timer Frozen",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "4D51C7C",
+                    "on": "909090909090",
+                    "off": "C4C17A114F24"
+                }
+            ]
+        },
+        {
+            "name": "[51][Mercs] Combo Starts At 666",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAD40",
+                    "on": "81F99A0200007305B99A020000E9726FF7F8",
+                    "off": "000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "4D51CBF",
+                    "on": "E97C900807",
+                    "off": "39F10F4FCE"
+                }
+            ]
+        },
+        {
+            "name": "[52][Mercs] Mayhem Instant Loading",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAD80",
+                    "on": "528B50348950145AC5FA2A4014E98C9E6AF6",
+                    "off": "000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "2484C19",
+                    "on": "E962619509",
+                    "off": "C5FA2A4014"
+                }
+            ]
+        },
+        {
+            "name": "[53][Mercs] Mayhem Yellow Bar Frozen",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "4739325",
+                    "on": "909090909090",
+                    "off": "C4C17A114720"
+                }
+            ]
+        },
+        {
+            "name": "[54][Mercs] Just 1 Kill = S++ (If [49] ON)",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDADC0",
+                    "on": "81BB080100000A1A00007305B89A020000898308010000E9086C6AF6",
+                    "off": "00000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "24819DE",
+                    "on": "E9DD93950990",
+                    "off": "898308010000"
+                }
+            ]
+        },
+        {
+            "name": "[55][Separate Ways] Hold X Doors Open Instantly",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDABB0",
+                    "on": "C740100000803FC5FA104010E9670C49F8",
+                    "off": "0000000000000000000000000000000000"
+                },
+                {
+                    "offset": "426B823",
+                    "on": "E988F3B607",
+                    "off": "C5FA114010"
+                }
+            ]
+        },
+        {
+            "name": "[56][Separate Ways] Hold X Doors Stay Open",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "426BE1B",
+                    "on": "9090909090",
+                    "off": "C5FA114010"
+                }
+            ]
+        },
+        {
+            "name": "[57a][Speed] Most Enemies x0,2",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAE70",
+                    "on": "4D85ED740741837D1402740AC5FA11431CE9E66F5EFB4831C0B00441837C050002750804103C7475F2EBE1C5FA11431CB8CDCC4C3E894320C5FA594320E9BF6F5EFB",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "73C1E67",
+                    "on": "E90490A104",
+                    "off": "C5FA11431C"
+                }
+            ]
+        },
+        {
+            "name": "[57b][Speed] Most Enemies x0,5",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAE70",
+                    "on": "4D85ED740741837D1402740AC5FA11431CE9E66F5EFB4831C0B00441837C050002750804103C7475F2EBE1C5FA11431CB80000003F894320C5FA594320E9BF6F5EFB",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "73C1E67",
+                    "on": "E90490A104",
+                    "off": "C5FA11431C"
+                }
+            ]
+        },
+        {
+            "name": "[58a][Size] Player x0,5",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAFE0",
+                    "on": "837B0803740AC5FA106B50E9C3EBECFA50B80000003F89435089435489435858EBE4",
+                    "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "6CA9BAE",
+                    "on": "E92D141305",
+                    "off": "C5FA106B50"
+                }
+            ]
+        },
+        {
+            "name": "[58b][Size] Player x1",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAFE0",
+                    "on": "837B0803740AC5FA106B50E9C3EBECFA50B80000803F89435089435489435858EBE4",
+                    "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "6CA9BAE",
+                    "on": "E92D141305",
+                    "off": "C5FA106B50"
+                }
+            ]
+        },
+        {
+            "name": "[58c][Size] Player x2",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDAFE0",
+                    "on": "837B0803740AC5FA106B50E9C3EBECFA50B80000004089435089435489435858EBE4",
+                    "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "6CA9BAE",
+                    "on": "E92D141305",
+                    "off": "C5FA106B50"
+                }
+            ]
+        },
+        {
+            "name": "[59a][Size] NME x0,5",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDB030",
+                    "on": "C5FA10734C837B08030F863BEBECFA50B80000003F89435089435489435858E926EBECFA",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "6CA9B75",
+                    "on": "E9B6141305",
+                    "off": "C5FA10734C"
+                }
+            ]
+        },
+        {
+            "name": "[59b][Size] NME x1",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDB030",
+                    "on": "C5FA10734C837B08030F863BEBECFA50B80000803F89435089435489435858E926EBECFA",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "6CA9B75",
+                    "on": "E9B6141305",
+                    "off": "C5FA10734C"
+                }
+            ]
+        },
+        {
+            "name": "[59c][Size] NME x2",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDB030",
+                    "on": "C5FA10734C837B08030F863BEBECFA50B80000004089435089435489435858E926EBECFA",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "6CA9B75",
+                    "on": "E9B6141305",
+                    "off": "C5FA10734C"
+                }
+            ]
+        },
+        {
+            "name": "[59d][Size] NME x4",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BDDB030",
+                    "on": "C5FA10734C837B08030F863BEBECFA50B80000804089435089435489435858E926EBECFA",
+                    "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "6CA9B75",
+                    "on": "E9B6141305",
+                    "off": "C5FA10734C"
+                }
+            ]
+        },
+        {
+            "name": "[60][Interaction] DANGEROUS 01",
+            "description":"This one can open doors that need an item-key to CONTINUE. Which means, if you do not know what you are doing, you will get stuck. JUST FOR EXPERIENCED PLAYERS WHO KNOW WHERE TO AVOID THIS CHEAT",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BF9640",
+                    "on": "C3909090",
+                    "off": "488B7610"
+                }
+            ]
+        },
+        {
+            "name": "[61][Interaction] DANGEROUS 02",
+            "description":"Actually it has a small repercution on the game but it can also get you stuck. That is why the DANGEROUS label. You can open some more (very few) doors that are locked",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "BF9670",
+                    "on": "C3909090",
+                    "off": "488B7610"
+                }
+            ]
+        }
+    ],
+    "credits": [
+        "Dioniso"
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "name": "Outlast 2",
+    "id": "CUSA06633",
+    "version": "1.03",
+    "process": "eboot.bin",
+    "mods": [
+        {
+            "name": "Infinite Health",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "254B800",
+                    "on": "C780288000000000C842C5FA109828800000E922F75DFF526564646576696C3832202D20465720392E3030",
+                    "off": "0000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "1B2AF31",
+                    "on": "E9CA08A200909090",
+                    "off": "C5FA109828800000"
+                }
+            ]
+        },
+        {
+            "name": "Infinite Stamina",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "254B82D",
+                    "on": "41C787347D00000000C842C4C17A1097347D0000E92F554FFF",
+                    "off": "00000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "1A40D6C",
+                    "on": "E9BCAAB00090909090",
+                    "off": "C4C17A1097347D0000"
+                }
+            ]
+        },
+        {
+            "name": "Infinite Battery Life Value",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "254B848",
+                    "on": "41C7871C8300000000803FE9F92357FF",
+                    "off": "00000000000000000000000000000000"
+                },
+                {
+                    "offset": "1ABDC48",
+                    "on": "E9FBDBA80090909090",
+                    "off": "C4C17A118F1C830000"
+                }
+            ]
+        },
+        {
+            "name": "Max Bandage",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "254B85A",
+                    "on": "41C787E00C0000040000004183BFE00C000000E949FD50FF",
+                    "off": "000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "1A5B5B3",
+                    "on": "E9A202AF00909090",
+                    "off": "4183BFE00C000000"
+                }
+            ]
+        },
+        {
+            "name": "Max Battery",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "254B874",
+                    "on": "41C787D80C0000080000004183BFD80C000000E99AFA50FF",
+                    "off": "000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "offset": "1A5B31E",
+                    "on": "E95105AF00909090",
+                    "off": "4183BFD80C000000"
+                }
+            ]
+        }
+    ],
+    "credits": [
+        "Reddevil82 ",
+        " FW 9.00"
+    ]
+}
